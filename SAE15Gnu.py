@@ -1,4 +1,3 @@
-'''
 #Chargement des données Voiture
 f2 = open("DATAVoiture.csv","r", encoding='utf8')
 
@@ -30,15 +29,3 @@ while y < 24:
     
     y += 1 
 f1.close()
-'''
-
-
-
-
-
-
-for row in reader:
-            r = []
-            if row[0] == parking_cherche:
-                r.append(str(row[1])), r.append( ((int(row[3]))-(int(row[2]))) )
-                resultat.append(r)
