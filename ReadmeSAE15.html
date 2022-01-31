@@ -1,0 +1,28 @@
+<h1 id="sae-15-scraper-des-donn-es">SAE 15 scraper des données</h1>
+<p>Par manque de temps et de compréhension nous n’avons pas eu le temps de faire les graphiques GnuPlot.   </p>
+<p>Notre programme se compose en trois codes, un code qui scrape les données parkings des voitures, un deuxième pour les parkings à vélos et enfin un dernier qui crée des fichiers lisible par GnuPlot(Le troisième code n&#39;est pas fini, nous avons rencontré beaucoup de problèmes)   </p>
+<p>Les deux premiers codes n&#39;utilise pas de fonction, nous n&#39;avons pas pu les mettre en forme pour faire un programme plus ergonomique.   </p>
+<p>Pour commencé à récupérer des données il faut exécuter les deux programme voiture et vélo. Il vont récolté des données toute les 5 muinutes et les mettre dans un fichier &#39; .svg&#39;. </p>
+<ul>
+<li><p>Programme SAE15Voiture<br><em>-</em> En entrée les données du site web DataMontpellier.
+<em>-</em> En sortie plusieurs fichiers:   </p>
+</li>
+<li><p>Un fichiers avec les données brutes de chaque parkings pour chaque parkings.   </p>
+</li>
+<li><p>Un avec toutes les données brutes dans un seul fichiers.   </p>
+</li>
+<li><p>Un avec le calcul de la moyenne d eplace libre nommé &#39;DonnéesMoyenneLibre&#39;.   </p>
+</li>
+<li>Un avec le calcul de l&#39;ecart type des place libre nommé &#39;DonnéesEcratType.log&#39;.   </li>
+<li>Un avec le calcul pourcentage de place libre par rapport au total nommé &#39;DonnéesPourcentages&#39;.   </li>
+<li>Un avec des données importante et exploitable par le code &#39;SAE15Gnu&#39; nommé &#39;DATAVoiture.svg&#39;.   </li>
+</ul>
+<hr>
+<ul>
+<li><p>Programme SAE15Velo   </p>
+<p><em>-</em> En entrée les données du site web DataMontpellier.<br><em>-</em> En sortie plusieurs fichiers:   </p>
+</li>
+<li><p>Un fichiers avec les données brutes du parking a velo en xml nommé &#39;velo.xml&#39;.   </p>
+</li>
+<li>Un avec des données importante et exploitable par le code &#39;SAE15Gnu&#39; nommé &#39;DATAVelo.svg&#39;.   </li>
+</ul>
